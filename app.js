@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 
 const Neo4J = require('./db/neo4j');
+console.log('DONT FORGET TO CHANGE NEO4j CREDENTIALS');
 
 function getCities() {
   return new Promise((resolve, reject) => {
